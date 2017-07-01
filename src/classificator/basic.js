@@ -10,7 +10,8 @@ class BasicClassificator extends BasicAlgorithm
 
 	train(in_Params, in_CB)
 	{
-		throw "Недописано";
+		let folder = in_Params.train.positive;
+		
 	}
 
 	check(in_Params, in_CB)
