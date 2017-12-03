@@ -1,0 +1,15 @@
+bare
+basic
+clear
+complex
+complicated
+convoluted
+direct
+fancy
+intricate
+easy
+hard
+obvious
+plain
+pure
+simple

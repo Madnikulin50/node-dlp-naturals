@@ -102,7 +102,8 @@ class TriGrams
 									let curTreshold = intersectionsCount * 100 / minLen;
 									if (score.threshold < curTreshold) {
 										score.threshold = curTreshold;
-										score.train = file;
+										let temp = kbHeader.files.find((item) => { return item.id === file });
+										score.train = temp === undefined ? file : temp.fileName;
 										score.testing = tfile;
 									}
 								}
